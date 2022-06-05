@@ -1,0 +1,6 @@
+{
+    "vnetaddressspace": "10.1.0.0/16",
+    "vm-size": "Standard_A2_v2",
+    "instance_count": "4",
+    "subnet_count": "2"
+}

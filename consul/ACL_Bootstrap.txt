@@ -1,0 +1,52 @@
+AccessorID:       e1b0b100-6cee-546b-6ad4-6145505b7b63     
+SecretID:         42f01ba6-99a0-fcb7-01dc-dac147293ff7     
+Description:      Bootstrap Token (Global Management)      
+Local:            false
+Create Time:      2022-06-04 14:12:58.2823227 +0530 IST    
+Policies:
+   00000000-0000-0000-0000-000000000001 - global-management
+-------------------------------------------------------------------------------
+mary_token_accessor_id = "77ba3b9c-35e1-e2c4-9385-988cd929b922"
+AccessorID:       77ba3b9c-35e1-e2c4-9385-988cd929b922
+SecretID:         fcf3fd01-3c85-f791-7840-8c0b85451e3a
+Description:      ACL Token for Mary Moe
+Local:            false
+Create Time:      2022-06-04 14:19:12.343378 +0530 IST
+Policies:
+   b68ccf3b-96e7-edda-c03a-6cabdf42e88b - networking  
+--------------------------------------------------------------------------------
+sally_token_accessor_id = "c551fbab-e03c-ce67-168e-2c5d4bf77794"   
+AccessorID:       c551fbab-e03c-ce67-168e-2c5d4bf77794
+SecretID:         cc83dee0-f1eb-db4d-1ee2-ac69d3622b59
+Description:      ACL Token for Sally Sue
+Local:            false
+Create Time:      2022-06-04 14:19:12.343378 +0530 IST
+Policies:
+   4bbcaf88-9e1c-e8cc-3d93-93e9a6378e73 - applications
+
+----------------------------------------------------------------------------------
+{
+  "environmentName": "AzureCloud",
+  "homeTenantId": "3ef59365-32e3-48e0-9d80-3de0773aebc0",
+  "id": "bec2f1b8-3d6d-4b6b-a236-0f55331c53a6",
+  "isDefault": true,
+  "managedByTenants": [],
+  "name": "Pay-As-You-Go",
+  "state": "Enabled",
+  "tenantId": "3ef59365-32e3-48e0-9d80-3de0773aebc0",    
+  "user": {
+    "name": "utkarshbachchan@outlook.com",
+    "type": "user"
+  }
+----------------------------------------------------------------------------------
+ {
+  "appId": "1795fbab-89a6-439c-83ca-e53a012b648a",
+  "displayName": "TF-Local",
+  "password": "FXJ8Q~Uq5riq306MnaTwjjn7QrotwGIWHjDlHaql",
+  "tenant": "3ef59365-32e3-48e0-9d80-3de0773aebc0"
+} 
+----------------------------------------------------------------------------------
+$env:TF_VAR_ARM_CLIENT_ID="1795fbab-89a6-439c-83ca-e53a012b648a"
+$env:TF_VAR_ARM_SUBSCRIPTION_ID="bec2f1b8-3d6d-4b6b-a236-0f55331c53a6"
+$env:TF_VAR_ARM_TENANT_ID="3ef59365-32e3-48e0-9d80-3de0773aebc0"
+$env:TF_VAR_ARM_CLIENT_SECRET="FXJ8Q~Uq5riq306MnaTwjjn7QrotwGIWHjDlHaql"
